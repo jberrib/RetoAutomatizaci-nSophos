@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0585f1ebc6475d1a90711a5299da4ad709471c27dff817c11cb500f8d0aaa6bd.html">Realizar Compra En La Pagina Metro</a></span>
+                > <span class="truncate-60"><a
+                    href="7fb3fe984122daa0d06685c1cbce2415729cea638baf09c6395eb852ffe0c9f9.html">ingresar a la URL indicada </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-01-2020 13:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Realizar Compra En La Pagina Metro </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">ingresar a la URL indicada
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="fb9d4129f1b2ecbdf98047396fc2de22d73acf8b4cbf97cece6e36c824539480.png" title=" Given Despues de encontrarme en la pagina de plazavea" width="1366"/>
+                <img src="fb9d4129f1b2ecbdf98047396fc2de22d73acf8b4cbf97cece6e36c824539480.png" title=" JonathanBerrio opens the https://www.plazavea.com.pe/" width="1366"/>
+                <img src="fb9d4129f1b2ecbdf98047396fc2de22d73acf8b4cbf97cece6e36c824539480.png" title=" Given Despues de encontrarme en la pagina de plazavea (completed)" width="1366"/>
+                <img src="8c0ffc0c98441758d60c5bbd52d23af1a6d3747e0561475530ff0ab79fc2da1f.png" title=" When procedo a buscar el producto y lo agrego al carrito de compras
+| Producto |
+| Recirculador AIR MONSTER 15880 |" width="1366"/>
+                <img src="8c0ffc0c98441758d60c5bbd52d23af1a6d3747e0561475530ff0ab79fc2da1f.png" title=" Jonathanberrio buscar producto" width="1366"/>
+                <img src="8c0ffc0c98441758d60c5bbd52d23af1a6d3747e0561475530ff0ab79fc2da1f.png" title=" JonathanBerrio clicks on Clic en el boton no" width="1366"/>
+                <img src="e984f3861bbf59ba9e43a0917721ca1a18bb22ffdedb12180842eea3a11b5d45.png" title=" JonathanBerrio clicks on Clic en el boton no (completed)" width="1366"/>
+                <img src="e984f3861bbf59ba9e43a0917721ca1a18bb22ffdedb12180842eea3a11b5d45.png" title=" JonathanBerrio enters 'Recirculador AIR MONSTER 15880' into Ingresar el texto a buscar" width="1366"/>
+                <img src="a51a35958b1bdea04c206877e742db210d11e8d9e0de9d511714ff7e5071675e.png" title=" JonathanBerrio enters 'Recirculador AIR MONSTER 15880' into Ingresar el texto a buscar (completed)" width="1366"/>
+                <img src="58f5a296bba05364325c92c56122d7f107b5bbd23797bb9e57d661170d043c76.png" title=" JonathanBerrio clicks on lista de productos" width="1366"/>
+                <img src="681c3f39ef25620479312fda7d9938a6ba3519fc98ef4b9617f80c88c8d1f38a.png" title=" JonathanBerrio clicks on lista de productos (completed)" width="1366"/>
+                <img src="681c3f39ef25620479312fda7d9938a6ba3519fc98ef4b9617f80c88c8d1f38a.png" title=" JonathanBerrio clicks on lista de productos" width="1366"/>
+                <img src="85c224248d0918b0dc84f53b30d16e29b3adaffa8247ec34f9b1d4e83c4709dc.png" title=" JonathanBerrio clicks on lista de productos (completed)" width="1366"/>
+                <img src="85c224248d0918b0dc84f53b30d16e29b3adaffa8247ec34f9b1d4e83c4709dc.png" title=" JonathanBerrio clicks on lista de productos" width="1366"/>
+                <img src="e4c86725049dbd7ab97183ff6a5267ec3b2086bf8288f0f75a95359b4a5f37e2.png" title=" JonathanBerrio clicks on lista de productos (completed)" width="1366"/>
+                <img src="e4c86725049dbd7ab97183ff6a5267ec3b2086bf8288f0f75a95359b4a5f37e2.png" title=" Jonathanberrio buscar producto (completed)" width="1366"/>
+                <img src="e4c86725049dbd7ab97183ff6a5267ec3b2086bf8288f0f75a95359b4a5f37e2.png" title=" When procedo a buscar el producto y lo agrego al carrito de compras
+| Producto |
+| Recirculador AIR MONSTER 15880 | (completed)" width="1366"/>
+                <img src="b25bf7c91809a5d6bfccb216c7fc25be198a19562f74ee4fa3edfd3b04032a72.png" title=" Then se visualiza que fue agregado exitosamente" width="1366"/>
+                <img src="b25bf7c91809a5d6bfccb216c7fc25be198a19562f74ee4fa3edfd3b04032a72.png" title=" Then vaidate target" width="1366"/>
+                <img src="b25bf7c91809a5d6bfccb216c7fc25be198a19562f74ee4fa3edfd3b04032a72.png" title=" Then vaidate target (completed)" width="1366"/>
+                <img src="b25bf7c91809a5d6bfccb216c7fc25be198a19562f74ee4fa3edfd3b04032a72.png" title=" Then se visualiza que fue agregado exitosamente (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.30</span>
+</div>
+</body>
+</html>
